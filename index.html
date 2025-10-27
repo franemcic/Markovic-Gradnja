@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Marković Gradnja d.o.o.</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" href="logo-icon.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Gornja traka -->
+  <div class="top-bar">
+    <div class="social">
+	  <a href="#"><img src="instagram-ico.png" alt=""> markovic.gradnja</a>
+      <a href="#"><img src="facebook-ico.png" alt=""> Marković Gradnja</a>
+      <a href="#">📞 01 482 4252 / 098 997 4494 </a>
+      <a href="#">✉️ markovich.luka@gmail.com</a>
+      <a href="#">📍 Livadarska cesta 1A</a>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="main-header">
+    <div class="logo">
+      <img src="logo.png" alt="Logo">
+    </div>
+    <h1>Marković Gradnja d.o.o.</h1>
+
+    <div class="menu-icon" id="menu-toggle">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </header>
+
+  <!-- Navigacija -->
+  <nav class="nav-menu" id="nav-menu">
+    <a href="#">Početna</a>
+    <a href="#">O nama</a>
+    <a href="#">Usluge</a>
+    <a href="#">Galerija</a>
+    <a href="#">Kontakt</a>
+  </nav>
+
+  <!-- Slider -->
+  <section class="slider">
+    <div class="slide active">
+      <img src="slika1.jpg" alt="Gradilište 1">
+    </div>
+    <div class="slide">
+      <img src="slika2.jpg" alt="Gradilište 2">
+    </div>
+    <div class="slide">
+      <img src="slika3.jpg" alt="Gradilište 3">
+    </div>
+
+    <div class="overlay"></div>
+
+    <button class="prev">❮</button>
+    <button class="next">❯</button>
+
+    <div class="dots" id="dots"></div>
+  </section>
+
+  <!-- O nama -->
+  <section class="about reveal">
+    <h2>O nama</h2>
+    <p>
+      Marković Gradnja d.o.o. je građevinska tvrtka s dugogodišnjim iskustvom u izgradnji stambenih, poslovnih i industrijskih objekata.
+      Naša stručnost, kvaliteta i točnost izvedbe radova čine nas pouzdanim partnerom na svakom projektu.
+      Gradimo s povjerenjem — temeljeno na znanju, kvaliteti i tradiciji.
+    </p>
+  </section>
+
+  <!-- Naši projekti -->
+  <section class="projects reveal">
+    <h2>Naši projekti</h2>
+    <div class="project-grid">
+      <div class="project-card"><img src="projekt1.jpg" alt=""><p>Stambena zgrada, Zagreb</p></div>
+      <div class="project-card"><img src="projekt2.jpg" alt=""><p>Industrijski kompleks, Sesvete</p></div>
+      <div class="project-card"><img src="projekt3.jpg" alt=""><p>Obiteljska kuća, </p></div>
+    </div>
+  </section>
+
+  <!-- Kontakt -->
+  <section class="contact reveal">
+    <h2>Kontaktirajte nas</h2>
+    <form>
+      <input type="text" placeholder="Ime i prezime" required>
+      <input type="email" placeholder="Email adresa" required>
+      <textarea placeholder="Poruka..." rows="4" required></textarea>
+      <button type="submit">Pošalji upit</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    © 2025 Marković Gradnja d.o.o. | Sva prava pridržana.
+  </footer>
+
+  <!-- Scroll to top -->
+  <button id="scrollTopBtn">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
